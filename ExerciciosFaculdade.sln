@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraSimples", "Calcu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MostrarPatas", "MostrarPatas\MostrarPatas.csproj", "{A7E59FD0-0346-4D43-8D80-47457970C07B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizzaria", "Pizzaria\Pizzaria.csproj", "{76F9AC39-F2F1-4C32-8ACA-6A15E59BEDF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{A7E59FD0-0346-4D43-8D80-47457970C07B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7E59FD0-0346-4D43-8D80-47457970C07B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7E59FD0-0346-4D43-8D80-47457970C07B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76F9AC39-F2F1-4C32-8ACA-6A15E59BEDF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76F9AC39-F2F1-4C32-8ACA-6A15E59BEDF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76F9AC39-F2F1-4C32-8ACA-6A15E59BEDF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76F9AC39-F2F1-4C32-8ACA-6A15E59BEDF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
