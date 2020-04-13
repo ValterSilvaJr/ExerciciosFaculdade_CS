@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PercorrendoVetores", "Perco
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PercorrendoMatriz", "PercorrendoMatriz\PercorrendoMatriz.csproj", "{2978253C-42DC-423C-BB76-639025064466}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncaoMaiorNumero", "FuncaoMaiorNumero\FuncaoMaiorNumero.csproj", "{6B7A384C-8ACB-4B77-BAB1-DB43B08DFF44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncaoParametrosValorRef", "FuncaoParametrosValorRef\FuncaoParametrosValorRef.csproj", "{11CB783A-82E8-4C42-B407-C2AB4C7A8F66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{2978253C-42DC-423C-BB76-639025064466}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2978253C-42DC-423C-BB76-639025064466}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2978253C-42DC-423C-BB76-639025064466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B7A384C-8ACB-4B77-BAB1-DB43B08DFF44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B7A384C-8ACB-4B77-BAB1-DB43B08DFF44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B7A384C-8ACB-4B77-BAB1-DB43B08DFF44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B7A384C-8ACB-4B77-BAB1-DB43B08DFF44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11CB783A-82E8-4C42-B407-C2AB4C7A8F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11CB783A-82E8-4C42-B407-C2AB4C7A8F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11CB783A-82E8-4C42-B407-C2AB4C7A8F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11CB783A-82E8-4C42-B407-C2AB4C7A8F66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
