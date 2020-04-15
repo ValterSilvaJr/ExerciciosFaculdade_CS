@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncaoMaiorNumero", "Funcao
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncaoParametrosValorRef", "FuncaoParametrosValorRef\FuncaoParametrosValorRef.csproj", "{11CB783A-82E8-4C42-B407-C2AB4C7A8F66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoACRRentalCar", "ProjetoACRRentalCar\ProjetoACRRentalCar.csproj", "{B9D16F04-F55B-433B-A603-901B3068B55D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{11CB783A-82E8-4C42-B407-C2AB4C7A8F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11CB783A-82E8-4C42-B407-C2AB4C7A8F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11CB783A-82E8-4C42-B407-C2AB4C7A8F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9D16F04-F55B-433B-A603-901B3068B55D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D16F04-F55B-433B-A603-901B3068B55D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D16F04-F55B-433B-A603-901B3068B55D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D16F04-F55B-433B-A603-901B3068B55D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
