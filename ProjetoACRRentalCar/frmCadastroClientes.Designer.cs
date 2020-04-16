@@ -191,15 +191,15 @@
         private System.Windows.Forms.Label lblCodigo;
         private System.Windows.Forms.Label lblCPF;
         private System.Windows.Forms.Label lblDtNasc;
-        private System.Windows.Forms.TextBox txtCodigo;
-        private System.Windows.Forms.TextBox txtNome;
+        public System.Windows.Forms.TextBox txtCodigo;
+        public System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.Button btnIncluir;
         private System.Windows.Forms.Button btnAlterar;
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.Button btnConsultar;
         private System.Windows.Forms.Button btnFechar;
-        private System.Windows.Forms.MaskedTextBox mskCPF;
-        private System.Windows.Forms.MaskedTextBox mskDtNasc;
+        public System.Windows.Forms.MaskedTextBox mskCPF;
+        public System.Windows.Forms.MaskedTextBox mskDtNasc;
     }
 }

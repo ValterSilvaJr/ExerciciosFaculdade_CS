@@ -67,5 +67,59 @@ namespace ProjetoACRRentalCar
                 }
             }
         }
+
+        private void btnSelecionar_Click(object sender, EventArgs e)
+        {
+            string codigoCliente, sqlQuery;
+
+            codigoCliente = dgvCliente.CurrentRow.Cells[0].Value.ToString();
+            SqlConnection conexaoCliente = Conexao.getConnection();
+
+            //Declara e inicializa um DataReader como Null
+            SqlDataReader dtr = null;
+
+            sqlQuery = "SELECT id_cliente, nome, cpf, data_nasc FROM cliente WHERE id_cliente = @id_cliente";
+
+            try
+            {
+                conexaoCliente.Open();
+                SqlCommand cmd = new SqlCommand(sqlQuery, conexaoCliente);
+
+                cmd.Parameters.Add(new SqlParameter("@id_cliente", Convert.ToInt32(codigoCliente)));
+
+                //Atribui o comando ao DataReader
+                dtr = cmd.ExecuteReader();
+
+                if (dtr.Read())
+                {
+                    //Para o Form frmCadastroCliente atribui ao TextBox o valor do campo ID_CLIENTE do banco de dados retornado na consulta
+                    frmCliente.txtCodigo.Text = dtr["ID_CLIENTE"].ToString();
+                    frmCliente.txtNome.Text = dtr["NOME"].ToString();
+                    frmCliente.mskDtNasc.Text = dtr["DATA_NASC"].ToString();
+                    frmCliente.mskCPF.Text = dtr["CPF"].ToString();
+                }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            finally
+            {
+                if(dtr != null)
+                {
+                    dtr.Close();
+                }
+
+                if(conexaoCliente != null)
+                {
+                    conexaoCliente.Close();
+                }
+            }
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
