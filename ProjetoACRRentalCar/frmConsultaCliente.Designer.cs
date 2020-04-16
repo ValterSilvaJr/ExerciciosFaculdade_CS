@@ -75,6 +75,7 @@
             this.Controls.Add(this.dgvCliente);
             this.Name = "frmConsultaCliente";
             this.Text = "Consulta de Cliente";
+            this.Load += new System.EventHandler(this.frmConsultaCliente_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCliente)).EndInit();
             this.ResumeLayout(false);
 

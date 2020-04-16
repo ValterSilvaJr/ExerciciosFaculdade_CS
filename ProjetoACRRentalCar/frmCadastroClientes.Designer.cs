@@ -1,6 +1,6 @@
 ﻿namespace ProjetoACRRentalCar
 {
-    partial class frmCadastroClientes
+    partial class frmCadastroCliente
     {
         /// <summary>
         /// Required designer variable.
@@ -101,6 +101,7 @@
             this.btnIncluir.TabIndex = 8;
             this.btnIncluir.Text = "Incluir";
             this.btnIncluir.UseVisualStyleBackColor = true;
+            this.btnIncluir.Click += new System.EventHandler(this.btnIncluir_Click);
             // 
             // btnAlterar
             // 
@@ -110,6 +111,7 @@
             this.btnAlterar.TabIndex = 9;
             this.btnAlterar.Text = "Alterar";
             this.btnAlterar.UseVisualStyleBackColor = true;
+            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
             // btnExcluir
             // 
@@ -119,6 +121,7 @@
             this.btnExcluir.TabIndex = 10;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnConsultar
             // 
@@ -128,6 +131,7 @@
             this.btnConsultar.TabIndex = 11;
             this.btnConsultar.Text = "Consultar";
             this.btnConsultar.UseVisualStyleBackColor = true;
+            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
             // 
             // btnFechar
             // 
@@ -137,6 +141,7 @@
             this.btnFechar.TabIndex = 12;
             this.btnFechar.Text = "Fechar";
             this.btnFechar.UseVisualStyleBackColor = true;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // mskCPF
             // 
@@ -175,6 +180,7 @@
             this.Controls.Add(this.lblCodigo);
             this.Name = "frmCadastroClientes";
             this.Text = "Cadastro Clientes";
+            this.Load += new System.EventHandler(this.frmCadastroClientes_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

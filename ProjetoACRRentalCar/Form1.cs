@@ -16,5 +16,17 @@ namespace ProjetoACRRentalCar
         {
             InitializeComponent();
         }
+
+        private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Cria um novo forumlário
+            Form frmCadastroClientes = new frmCadastroCliente();
+
+            //Define quem é o pai dessa janela
+            frmCadastroClientes.MdiParent = this;
+
+            //Exibe o formulário
+            frmCadastroClientes.Show();
+        }
     }
 }
