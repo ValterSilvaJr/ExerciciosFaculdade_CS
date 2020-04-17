@@ -74,6 +74,7 @@ namespace ProjetoACRRentalCar
 
             codigoCliente = dgvCliente.CurrentRow.Cells[0].Value.ToString();
             SqlConnection conexaoCliente = Conexao.getConnection();
+            SqlConnection test = Conexao.MySQL.getConnection();
 
             //Declara e inicializa um DataReader como Null
             SqlDataReader dtr = null;

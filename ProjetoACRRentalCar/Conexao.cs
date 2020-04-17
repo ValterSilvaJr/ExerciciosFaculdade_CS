@@ -25,5 +25,32 @@ namespace ProjetoACRRentalCar
             return cnn;
         }
 
+        public class MySQL
+        {
+            static string sqlServer = @"CAMINHO DO SERVIDOR";
+            public static SqlConnection getConnection()
+            {
+                SqlConnection cnn = new SqlConnection(sqlServer);
+                return cnn;
+            }
+        }
+
+        public class SQLServer
+        {
+            public static SqlConnection getConnection()
+            {
+                SqlConnection cnn = new SqlConnection(@"CAMINHO DO SERVIDOR");
+                return cnn;
+            }
+        }
+
+        public class OracleServer
+        {
+            public static SqlConnection getConnection()
+            {
+                SqlConnection cnn = new SqlConnection(@"CAMINHO DO SERVIDOR");
+                return cnn;
+            }
+        }
     }
 }
